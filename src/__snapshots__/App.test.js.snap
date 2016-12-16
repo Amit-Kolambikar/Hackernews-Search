@@ -1,0 +1,36 @@
+exports[`App snapshots 1`] = `
+<div
+  className="App">
+  <form
+    className="search-form"
+    onSubmit={[Function]}>
+    <input
+      onChange={[Function]}
+      onFocus={undefined}
+      type="text"
+      value="react" />
+    <button
+      type="submit">
+      Submit
+    </button>
+  </form>
+  <h3
+    style={
+      Object {
+        "margin": "200px auto",
+        "textAlign": "center",
+      }
+    }>
+    Loading...
+  </h3>
+  <div
+    className="prev-next-block">
+    <button
+      className="next"
+      onClick={[Function]}
+      type="button">
+      More
+    </button>
+  </div>
+</div>
+`;

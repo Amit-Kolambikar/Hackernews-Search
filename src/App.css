@@ -1,0 +1,137 @@
+body {
+color: #222;
+background: #f4f4f4;
+font-family: 'Source Sans Pro', sans-serif !important;
+}
+a {
+color: #222;
+text-decoration: none;
+}
+a:hover {
+text-decoration: none;
+}
+ul, li {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+input {
+padding: 10px;
+border-radius: 5px;
+outline: none;
+margin-right: 10px;
+border: 1px solid #dddddd;
+}
+button {
+padding: 10px;
+border-radius: 5px;
+border: 1px solid #dddddd;
+background: transparent;
+color: #808080;
+cursor: pointer;}
+button:hover
+{
+color: #222;
+}
+*:focus{
+outline: none;
+}
+.page{
+margin: 20px;
+}
+.interactions{
+text-align: center;
+}
+.table{
+margin:2em auto;
+width:900px;
+border-bottom: 1px solid rgb(215, 73, 55);
+}
+.table-header{
+display: flex;
+line-height: 24px;
+font-size: 16px;
+padding: 0 10px;
+justify-content: space-between;
+text-transform: uppercase;
+}
+.table-empty{
+margin: 200px;
+text-align: center;
+font-size: 16px;
+}
+.table-row{
+display: flex;
+line-height: 24px;
+white-space: nowrap;
+padding: 20px;
+border: 1px solid rgb(215, 73, 55);
+border-bottom:none;
+}
+.table-header > span {
+overflow: hidden;
+text-overflow: ellipsis;
+padding: 0 5px;
+}
+.table-row > span {
+overflow: hidden;
+text-overflow: ellipsis;
+padding: 0 5px;
+}
+.button-inline {
+border-width: 0;
+background: transparent;
+color: inherit;
+text-align: inherit;
+-webkit-font-smoothing: inherit;
+padding: 0;
+font-size: inherit;
+cursor: pointer;
+}
+.button-active {
+border-radius: 0;
+border-bottom: 1px solid #38BB6C;
+}
+.search-form{
+  width:900px;
+  margin:0 auto;
+}
+.search-form input{
+  width: 782px;
+  border-radius: 0 !important;
+font-family: 'Source Sans Pro', sans-serif !important;
+  text-transform: capitalize;
+  height:21px !important;
+  font-size:1em !important;
+  padding:10px!important;
+}
+.search-form button{
+  font-weight:500;
+  color:blue;
+  height:42px !important;
+  font-size:1em !important;
+font-family: 'Source Sans Pro', sans-serif !important;
+  border-radius: 0 !important;
+  width:85px;
+}
+.prev-next-block{
+  clear:both;
+  width: 900px;
+  margin:2em auto;
+  margin-bottom: 10em;
+}
+.prev{
+  border:1px solid rgb(215, 73, 55);
+  font-weight:normal;
+  font-size: 1em;
+  color:black;
+font-family: 'Source Sans Pro', sans-serif !important;
+}
+.next{
+  border:1px solid rgb(215, 73, 55);
+  font-weight:normal;
+  font-size: 1em;
+  color:black;
+  width:100%;
+font-family: 'Source Sans Pro', sans-serif !important;
+}
